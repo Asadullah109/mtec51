@@ -9,7 +9,7 @@ export default function Navebar() {
             href="/"
             className="hover:text-yellow-300 transition duration-300 cursor-pointer"
           >
-            Home
+            Home1
           </Link>
         </li>
         <li>
@@ -17,7 +17,7 @@ export default function Navebar() {
             href="/about"
             className="hover:text-yellow-300 transition duration-300 cursor-pointer"
           >
-            About
+            About1
           </Link>
         </li>
         <li>
@@ -25,7 +25,7 @@ export default function Navebar() {
             href="/contect"
             className="hover:text-yellow-300 transition duration-300 cursor-pointer"
           >
-            Contect
+            Contect1
           </Link>
         </li>
       </ul>

@@ -1,5 +1,6 @@
-import Navebar from "@/component/navebar";
-import Sidbar from "@/component/sidebar";
+import Navebar from "@/component/Navebar";
+import Sidbar from "@/component/Sidebar";
+import Header from "@/component/layout/header";
 
 export default function Home() {
   return (
@@ -11,12 +12,13 @@ export default function Home() {
       <div className="flex flex-1">
         {/* Sidebar */}
         <Sidbar />
+        <Header />
 
         {/* Main Content */}
         <main className="flex-1 bg-gray-100 p-8">
-          <h1 className="text-3xl font-bold mb-6">Home Page</h1>
+          <h1 className=" text-blue-950 text-3xl font-bold mb-6">Home Page</h1>
           {/* Additional content can go here */}
-          <p className="text-gray-700">Welcome to the home page! Here is some additional content.</p>
+          <p className="text-red-700">Welcome to the home page! Here is some additional content.</p>
         </main>
       </div>
     </div>
